@@ -20,7 +20,7 @@ $this->params['breadcrumbs'][] = $this->title;
         'model' => $model,
         'attributes' => [
              ['attribute'=>'Photo',
-            'value'=> yii::getAlias('http://localhost/basic/web').'/'.$model->Image_Path,
+            'value'=> yii::getAlias('http://localhost/basic/FitGloble/web').'/'.$model->Image_Path,
             'format'=>['image',['width'=>'120','height'=>'120']]
             ],
             //'Customer_ID',
